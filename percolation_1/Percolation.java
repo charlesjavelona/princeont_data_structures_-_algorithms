@@ -96,7 +96,7 @@ public class Percolation {
     
     }
     
-    public void isValid(int i, int j) {
+    private void isValid(int i, int j) {
         if(i < 1 || i > n || j < 1 || j > n) {
            throw new java.lang.IndexOutOfBoundsException();
         }
