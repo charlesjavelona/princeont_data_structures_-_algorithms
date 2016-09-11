@@ -2,6 +2,7 @@ import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
+
 public class Percolation {
     //Intialize private global variables
     private boolean [][] grid; // grid[i][j] == 0 for blocked, 1 for open element. 
